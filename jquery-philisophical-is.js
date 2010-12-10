@@ -1,0 +1,1 @@
+(function($) { $.fn.extend({ _is: $.fn.is, is: function(s) { return this._is(s || '*');} }); })(jQuery)
